@@ -44,7 +44,7 @@ public class MedicationMarshallTest {
 		  
 		  
 		 JAXBContext c = JAXBContext.newInstance(Medication.class.getPackage().getName());
-		 FileOutputStream file = new FileOutputStream(new File("patient_example_output.xml"));
+		 FileOutputStream file = new FileOutputStream(new File("medication_output.xml"));
 		//OutputStream os = …
 			//	Marshaller m = c.createMarshaller();
 				//m.marshal( p, os );
@@ -56,7 +56,7 @@ public class MedicationMarshallTest {
 			
 			Unmarshaller um = c.createUnmarshaller();
 			//InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("patient_example_output.xml");
-			File is = new File("patient_example_output.xml");
+			File is = new File("medication_output.xml");
 			Medication med1 = (Medication)um.unmarshal(is);
 	}
 
