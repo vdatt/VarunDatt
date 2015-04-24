@@ -1,0 +1,4 @@
+127.0.0.1 - - [24/Apr/2015:11:24:17 -0700] "GET /index.html HTTP/1.1" 200 1861 http-bio-9898-exec-1 101
+127.0.0.1 - - [24/Apr/2015:11:24:18 -0700] "GET /js/jquery-1.7.js HTTP/1.1" 200 258459 http-bio-9898-exec-2 1
+127.0.0.1 - - [24/Apr/2015:11:24:19 -0700] "GET /css/bootstrap.min.1.4.0.css HTTP/1.1" 200 48012 http-bio-9898-exec-3 1
+127.0.0.1 - - [24/Apr/2015:11:24:20 -0700] "GET /restServices/testServices/HelloService/sayHello/foo HTTP/1.1" 200 9 http-bio-9898-exec-4 131

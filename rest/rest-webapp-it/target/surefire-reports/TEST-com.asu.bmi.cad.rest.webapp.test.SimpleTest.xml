@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="5.825" errors="0" skipped="0" tests="1" name="com.asu.bmi.cad.rest.webapp.test.SimpleTest">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="catalina.base" value="/home/varun/Tools/Workspaces/STS-workspace/rest/rest-webapp-it/target/tomcat"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="catalina.useNaming" value="true"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/opt/java/jdk1.7.0_79/jre/lib/resources.jar:/opt/java/jdk1.7.0_79/jre/lib/rt.jar:/opt/java/jdk1.7.0_79/jre/lib/sunrsasign.jar:/opt/java/jdk1.7.0_79/jre/lib/jsse.jar:/opt/java/jdk1.7.0_79/jre/lib/jce.jar:/opt/java/jdk1.7.0_79/jre/lib/charsets.jar:/opt/java/jdk1.7.0_79/jre/lib/jfr.jar:/opt/java/jdk1.7.0_79/jre/classes"/>
+    <property name="java.util.logging.config.file" value="/home/varun/Tools/Workspaces/STS-workspace/rest/rest-webapp-it/target/tomcat/conf/logging.properties"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="user.name" value="varun"/>
+    <property name="shared.loader" value=""/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="tomcat.util.buf.StringCache.byte.enabled" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="java.naming.factory.initial" value="org.apache.naming.java.javaURLContextFactory"/>
+    <property name="sun.boot.library.path" value="/opt/java/jdk1.7.0_79/jre/lib/amd64"/>
+    <property name="classworlds.conf" value="/home/varun/Tools/Workspaces/STS-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5032134866620565435.tmp"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.util.logging.manager" value="org.apache.juli.ClassLoaderLogManager"/>
+    <property name="user.timezone" value="America/Phoenix"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.endorsed.dirs" value="/opt/java/jdk1.7.0_79/jre/lib/endorsed"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="package.access" value="sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper."/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/opt/java/jdk1.7.0_79/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="3.13.0-37-generic"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="tomcat.util.scan.DefaultJarScanner.jarsToSkip" value="bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j.jar,log4j-1*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest*.jar,org.hamcrest*.jar,ant-launcher.jar"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="package.definition" value="sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper."/>
+    <property name="java.naming.factory.url.pkgs" value="org.apache.naming"/>
+    <property name="user.home" value="/home/varun"/>
+    <property name="org.apache.catalina.startup.ContextConfig.jarsToSkip" value=""/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="org.apache.catalina.startup.TldConfig.jarsToSkip" value="tomcat7-websocket.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="common.loader" value="${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar"/>
+    <property name="maven.home" value="/home/varun/Tools/Workspaces/STS-workspace/rest/EMBEDDED"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.class.path" value="/home/varun/Tools/STS (Spring framework)-bundle/sts-3.6.4.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="catalina.home" value="/home/varun/Tools/Workspaces/STS-workspace/rest/rest-webapp-it/target/tomcat"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="server.loader" value=""/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.ext.dirs" value="/opt/java/jdk1.7.0_79/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/home/varun/Tools/Workspaces/STS-workspace/rest"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="tomcat.maven.http.port" value="9898"/>
+    <property name="java.specification.version" value="1.7"/>
+  </properties>
+  <testcase time="5.825" classname="com.asu.bmi.cad.rest.webapp.test.SimpleTest" name="testSimple"/>
+</testsuite>
