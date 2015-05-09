@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Final.iml" filepath="$PROJECT_DIR$/Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/application.iml" filepath="$PROJECT_DIR$/application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fhir/fhir.iml" filepath="$PROJECT_DIR$/fhir/fhir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fhirDB/fhirDB.iml" filepath="$PROJECT_DIR$/fhirDB/fhirDB.iml" />
+    </modules>
+  </component>
+</project>
